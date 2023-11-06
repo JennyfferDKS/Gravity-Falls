@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+.nav {
+  background-color: rgb(255, 255, 255);
+  height: 70px;
+}
+.logo {
+  padding-top: 10px;
+  padding-left: 40px;
+}
+.navbottom {
+  flex: 80%;
+  text-align: center;
+  padding: 20px;
+  margin-top: -60px;
+}
+
+.navbottom a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 40px 26px;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero img {
+  max-width: 100%;
+}
+
+.butao {
+  position: absolute;
+  text-transform: uppercase;
+  border-radius: 24px;
+  background-color: white;
+  height: 48px;
+  min-width: 240px;
+  box-shadow: none;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 16px 32px;
+
+  bottom: 20%;
+  left: 10%;
+
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.butao:hover {
+  background-color: black;
+  color: white;
+}
+.butaoDOIS {
+  position: absolute;
+  text-transform: uppercase;
+  border-radius: 24px;
+  background: transparent;
+  color: aliceblue;
+  height: 48px;
+  min-width: 240px;
+  box-shadow: none;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 16px 32px;
+  border: 2px solid rgb(255, 255, 255);
+  bottom: 20%;
+  left: 30%;
+
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.butaoDOIS:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.textin {
+  position: absolute;
+  bottom: 30%;
+  left: 15%;
+  font-size: 40px;
+  color: aliceblue;
+}
+.heroo {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+}
+.heroo img {
+  position: absolute;
+  left: 0;
+  top: -40px;
+  margin-left: 50px;
+  
+}
+.main{
+  position: relative;
+
+}
+.texto{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 20%;
+  top: 300px;
+}
+.texto h1{
+  font-size: 40px;
+}
+.texto p{
+  font-size: 20px ;
+}
+.imgfeia{
+  position: relative;
+  top: 50px;
+  left: -5% ;
+}
+
